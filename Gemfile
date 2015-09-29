@@ -9,10 +9,11 @@ gem 'cancancan'
 gem 'rails_admin'
 
 
-gem 'sqlite3', group: :development
-gem 'pg', group: :production
-gem 'rails_12factor', group: :production
+#gem 'sqlite3', group: :development
+#gem 'pg', group: :production
+#gem 'rails_12factor', group: :production
 
+gem 'mysql2'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.4'
