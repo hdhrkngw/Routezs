@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+ENV['NOKOGIRI_USE_SYSTEM_LIBRARIES'] = 'YES'
+
 #gem "paperclip"
 gem "paperclip", "3.4.2"
 gem 'jquery-ui-rails'
@@ -13,7 +15,7 @@ gem 'rails_admin'
 #gem 'pg', group: :production
 #gem 'rails_12factor', group: :production
 
-gem 'mysql2'
+gem 'mysql2', '~> 0.3.18'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.4'
