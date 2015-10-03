@@ -15,11 +15,27 @@
     <%= f.label :title %><br>
     <%= f.text_field :title %>
   </div>
+
   <div class="field">
     <%= f.label :name %><br>
     <%= f.text_field :name %>
   </div>
+
+
+  <div class="field">
+    <%= f.file_field :photo_top %>
+  </div>
+
+  <div class="field">
+    <%= f.file_field :photo1 %>
+  </div>
+
+
+
   <div class="actions">
     <%= f.submit %>
   </div>
+
+
+
 <% end %>
